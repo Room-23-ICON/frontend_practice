@@ -18,11 +18,11 @@
 > - :hover selector: Tạo thay đổi khi rê chuột vào phần tử (Sử dụng cho hiển thị sub menu hoặc đổi style của chữ/phần tử khi rê chuột vào)
 > - position: dùng để đánh dấu phần tử 'cha' (relative) và phần tử 'phụ thuộc' (absolute) https://www.w3schools.com/css/css_positioning.asp
 
-> Các bạn nộp bài bằng cách tạo một repository thông qua account github rồi thực hiện push code lên đó. (Lưu ý file index.html phải nằm ở thư mục gốc như demo). Sau khi push code, vào phần cài đặt chọn public. 
+> Các bạn nộp bài bằng cách tạo một repository thông qua account github rồi thực hiện push code lên đó. (Lưu ý file index.html phải nằm ở thư mục gốc như demo). Sau khi push code, vào Settings tại Options chọn public, tại Pages chọn source -> branch master/main/... 
 
 ## 3. Demo
 
-### Truy cập https://Room-23-ICON.github.io/frontend_practice để xem demo
+### Truy cập https://room-23-icon.github.io/frontend_practice/ để xem demo
 ### Sử dụng lệnh *clone* để download source code nếu cần (phải install git bash hoặc sử dụng git trong vscode hay bất cứ IDE nào phù hợp)
 ```
 git clone https://github.com/Room-23-ICON/frontend_practice.git
