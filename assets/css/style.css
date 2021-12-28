@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+.menu {
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    margin: 0 !important;
+    font-family: system-ui !important;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.menu__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    outline: 0 !important;
+    border: 0 !important;
+    background-color: rgb(33, 140, 120);
+    padding: 0 90px;
+}
+
+.menu__tabs.left {
+    flex: 75%;
+}
+
+.menu__tabs.right {
+    flex: 25%;
+    justify-content: flex-end;
+}
+
+.menu__tabs {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    display: flex;
+    gap: 0 !important;
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+img.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu__tab:not(.personal__box) {
+    padding: 12px 25px;
+    margin: 0 !important;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.left .menu__tab a{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+}
+
+.left .menu__tab.active a{
+    color: rgb(234, 166, 56);
+}
+
+.personal__box.menu__tab {
+    order: 2;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.login__box.menu__tab {
+    order: 1;
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.login__box > span {
+    color: rgb(198, 198, 198);
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.left .menu__tab:hover {
+    background-color: rgb(119, 196, 182);
+}
+.left .menu__tab:hover a{
+    color: rgb(255, 255, 255);
+}
+.login__box > span:hover {
+    text-shadow: 3px 3px 9px black;
+    color: white;
+}
+
+.sub__menu {
+    position: absolute;
+    background-color: rgba(119, 196, 182, .7);
+    top: 100%;
+    left: 0;
+    width: 200%;
+    display: none;
+}
+
+.left .menu__tab:hover .sub__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub__menu__item {
+    padding: 10px;
+    text-align: center;
+}
+
+.sub__menu__item:hover {
+    background: rgba(33, 140, 120, .6);
+}
+
+.sub__menu__item, .menu__tab {
+    cursor: pointer;
+}
+
+.sub__menu__item:hover a {
+    color: white !important;
+}
+
+.sub__menu__item > a {
+    color: black !important;
+    font-size: 10px !important;
+}
